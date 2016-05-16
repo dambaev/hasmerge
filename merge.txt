@@ -1,0 +1,12 @@
+# comment
+
+#replace frames [100;200] in base clip by frames [100;200] from source clip
+r 10 109 100 199
+
+#insert frames [0;100] from src to frame 210 of base clip
+i 1 100 199
+
+#delete frames [250;260]
+d 1 100
+a 0 99
+
